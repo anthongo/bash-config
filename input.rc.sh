@@ -1,6 +1,5 @@
 set colored-stats On
 set completion-ignore-case On
-set completion-prefix-display-length 3
 set mark-symlinked-directories On
 set show-all-if-ambiguous On
 set show-all-if-unmodified On
