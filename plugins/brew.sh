@@ -1,5 +1,14 @@
-if [ -d /home/linuxbrew/.linuxbrew ]; then
+eval_brew() {
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+}
+
+install_brew() {
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    eval_brew
+}
+
+if [ -d /home/linuxbrew/.linuxbrew ]; then
+    eval_brew
 
     alias bs="brew search"
     alias bi="brew install"
