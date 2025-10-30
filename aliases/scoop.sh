@@ -1,0 +1,5 @@
+alias si="scoop install"
+alias sinfo="scoop info"
+alias ss="scoop-search"
+alias sup="scoop update"
+alias sun="scoop uninstall"
