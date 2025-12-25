@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 alias si="scoop install"
 alias sinfo="scoop info"
 alias ss="scoop search"

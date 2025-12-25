@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 eval_brew() {
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
     brew_aliases
