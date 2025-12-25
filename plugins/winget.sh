@@ -1,8 +1,0 @@
-#!/usr/bin/bash
-
-alias wi="winget install"
-alias wup="winget upgrade"
-alias wun="winget uninstall"
-alias ws="winget search"
-alias winfo="winget show"
-alias wl="winget list"

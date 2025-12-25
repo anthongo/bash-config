@@ -1,5 +1,5 @@
 bashrc: .bashrc
-	@ln -sf .bashrc ~/.bashrc
+	@cp ./.bashrc ~/.bashrc
 
 inputrc: .inputrc
-	@ln -sf .inputrc ~/.inputrc
+	@cp ./.inputrc ~/.inputrc
