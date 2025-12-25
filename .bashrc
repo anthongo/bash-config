@@ -21,7 +21,7 @@ alias ws="winget search"
 alias winfo="winget show"
 alias wl="winget list"
 
-if [ -x bat ]; then
+if [ -x "$(command -v bat)" ]; then
     alias cat=bat
 fi
 
