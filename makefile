@@ -1,7 +1,7 @@
 bashrc: .bashrc
 	cp ./.bashrc ~/.bashrc
 
-bash_aliases: .bash_aliases
+bash_aliases: .bashrc
 	cp ./.bashrc ~/.bash_aliases
 
 inputrc: .inputrc
