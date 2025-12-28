@@ -102,5 +102,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 # shellcheck disable=SC1091
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-# uv shell completion
-eval "$(uv generate-shell-completion bash)"
+if [ -x "$(command -v uv)" ]; then
+    eval "$(uv generate-shell-completion bash)"
+fi
