@@ -41,6 +41,9 @@ shopt -s cdspell
 # check the window size after each command and, if necessary, update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# set vim mode
+set -o vi
+
 if [ -x "$(command -v bat)" ]; then
     alias cat=bat
 fi

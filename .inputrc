@@ -1,9 +1,10 @@
-set colored-stats On
-set completion-ignore-case On
-set mark-symlinked-directories On
-set show-all-if-ambiguous On
-set show-all-if-unmodified On
-set visible-stats On
+set colored-stats on
+set completion-ignore-case on
+set mark-symlinked-directories on
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+set show-mode-in-prompt on
+set visible-stats on
 
 "\e[A": history-search-backward
 "\e[B": history-search-forward
